@@ -15,4 +15,4 @@ Then Close Browser
 
 Examples:
                    |username                               | password |
-                   |justypedigvijay@gmail.com | Bank$123 |
+                   |test@gmail.com | test@123 |

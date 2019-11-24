@@ -12,4 +12,4 @@ Then Close Browser
 Examples:
                    | username | password |
                    | admin      | admin@123 |
-                   | justypedigvijay@gmail.com | Bank$123 |
+                   | test@gmail.com | test@123 |

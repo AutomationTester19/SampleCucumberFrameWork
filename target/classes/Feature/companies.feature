@@ -9,5 +9,5 @@ And User Enters username and password
 | username | password |
 | admin | admin@123 |
 | Test | Test@123 |
-| Justypedigvijay@gmail.com | Bank$123 |
+| test@gmail.com | Test$123 |
 Then Close Browser
