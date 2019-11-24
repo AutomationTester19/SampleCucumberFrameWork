@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Navigate to CRM Login Page",
+        "description": "",
+        "id": "navigate-crm-login-page;navigate-to-crm-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4364735600,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#Given Open Chrome Browser"
+              },
+              {
+                "line": 6,
+                "value": "#Then Navigate to CRM Login Page"
+              },
+              {
+                "line": 7,
+                "value": "#When Validate Title of the Page"
+              },
+              {
+                "line": 8,
+                "value": "#And Enter \"justypedigvijay@gmail.com\" and \"Test@123\""
+              },
+              {
+                "line": 9,
+                "value": "#Then Close Browser"
+              }
+            ],
+            "line": 12,
+            "name": "Open Chrome Browser",
+            "match": {
+              "location": "LoginStepDefination.open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4356403700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Navigate to CRM Login Page",
+            "match": {
+              "location": "LoginStepDefination.navigate_to_CRM_Login_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10796100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate Title of the Page",
+            "match": {
+              "location": "LoginStepDefination.validate_Title_of_the_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165233900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter \"admin\" and \"admine@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 7
+                },
+                {
+                  "val": "admine@123",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefination.Enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98010900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close Browser",
+            "match": {
+              "location": "LoginStepDefination.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigate CRM Login Page",
+    "description": "",
+    "id": "navigate-crm-login-page",
+    "keyword": "Feature",
+    "uri": "E:/MyWorkSpace/SampleBDDFrameWork/src/main/java/Feature/login.feature"
+  }
+]

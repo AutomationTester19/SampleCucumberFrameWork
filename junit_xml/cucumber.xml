@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.99518">
+<testcase classname="Navigate CRM Login Page" name="Navigate to CRM Login Page" time="8.99518">
+<system-out><![CDATA[Given Open Chrome Browser...................................................passed
+Then Navigate to CRM Login Page.............................................passed
+When Validate Title of the Page.............................................passed
+And Enter "admin" and "admine@123"..........................................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
